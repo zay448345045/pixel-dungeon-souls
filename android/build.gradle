@@ -28,6 +28,9 @@
 apply plugin: 'com.android.application'
 
 android {
+    //android {
+    ndkVersion "20.0.5594570" // e.g.,  ndkVersion "21.3.6528147"
+//    }
     compileSdkVersion appAndroidCompileSDK
 
     compileOptions.sourceCompatibility = compileOptions.targetCompatibility = appJavaCompatibility
